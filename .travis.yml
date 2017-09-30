@@ -1,0 +1,8 @@
+language: go
+
+install:
+  - go get github.com/InkProject/ink
+  - ink build
+
+script:
+  - cd ./public
