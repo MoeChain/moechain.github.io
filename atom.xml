@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>萌链官方博客</title>
+  <id>http://blog.moechain.com</id>
+  <updated>2017-09-30T00:25:15Z</updated>
+  <subtitle>萌链，发现区块链的价值</subtitle>
+  <link href="http://blog.moechain.com"></link>
+  <author>
+    <name>萌链官方博客</name>
+  </author>
+  <entry>
+    <title>区块链是个啥</title>
+    <updated>2017-09-28T10:00:00+08:00</updated>
+    <id>tag:blog.moechain.com,2017-09-28:/what-is-blockchain.html</id>
+    <content type="html">&lt;p&gt;简单的介绍一下区块链，稍具专业性&lt;/p&gt;&#xA;</content>
+    <link href="http://blog.moechain.com/what-is-blockchain.html"></link>
+    <author>
+      <name>茯苓</name>
+    </author>
+  </entry>
+  <entry>
+    <title>比特币是个啥</title>
+    <updated>2017-09-26T10:00:00+08:00</updated>
+    <id>tag:blog.moechain.com,2017-09-26:/what-is-bitcoin.html</id>
+    <content type="html">&lt;p&gt;这篇文章也可以叫做《连2233都能明白比特币是个啥子》，当然叫《连阿黄都能明白什么是比特币》也行～&lt;/p&gt;&#xA;</content>
+    <link href="http://blog.moechain.com/what-is-bitcoin.html"></link>
+    <author>
+      <name>茯苓</name>
+    </author>
+  </entry>
+  <entry>
+    <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
+    <updated>2016-07-11T17:00:00+08:00</updated>
+    <id>tag:blog.moechain.com,2016-07-11:/ink-blog-tool.html</id>
+    <content type="html">&lt;p&gt;纸小墨（InkPaper）是一个GO语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版。&lt;/p&gt;&#xA;</content>
+    <link href="http://blog.moechain.com/ink-blog-tool.html"></link>
+    <author>
+      <name>茯苓</name>
+    </author>
+  </entry>
+</feed>
