@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+<meta name="renderer" content="webkit">
+<meta name="google" value="notranslate">
+<meta name="robots" content="index,follow">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="萌链官方博客">
+<meta name="twitter:description" content="萌链，发现区块链的价值">
+<meta name="twitter:image:src" content="http://blog.moechain.com/images/logo.jpg">
+
+<meta property="og:url" content="http://blog.moechain.com">
+<meta property="og:title" content="萌链官方博客">
+<meta property="og:description" content="萌链，发现区块链的价值">
+<meta property="og:site_name" content="萌链官方博客">
+<meta property="og:image" content="http://blog.moechain.com/images/logo.jpg">
+<meta property="og:type" content="website">
+<meta name="robots" content="noodp">
+
+<meta itemprop="name" content="萌链官方博客">
+<meta itemprop="description" content="萌链，发现区块链的价值">
+<meta itemprop="image" content="http://blog.moechain.com/images/logo.jpg">
+
+<link rel="canonical" href="http://blog.moechain.com">
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-itouch-icon" href="/favicon.png">
+<link rel="stylesheet" href="/bundle/index.css">
+<script type="text/javascript">
+    var timeSinceLang = {
+        year: '年前',
+        month: '个月前',
+        day: '天前',
+        hour: '小时前',
+        minute: '分钟前',
+        second: '秒前'
+    };
+    var root = '';
+</script>
+
+
+        <meta name="keywords" content="区块链,科普,">
+        <meta name="description" content="区块链是个啥">
+        <meta name="author" content="茯苓">
+        <title>区块链是个啥</title>
+    </head>
+    <body>
+        <article class="container">
+            <header class="header-wrap">
+  <a class="index" href="/">
+    <img class="logo" src="/images/logo.jpg" />
+    萌链官方博客
+  </a>
+  <ul class="menu">
+      <li class="menu-item"><a href="/archive.html">归档</a></li>
+      <li class="menu-item"><a href="/tag.html">标签</a></li>
+      <li class="menu-item"><a href="/atom.xml">订阅</a></li>
+  </ul>
+</header>
+
+            <article class="main article">
+                <h1 class="title">区块链是个啥</h1>
+                <section class="info">
+                    <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
+                    <a class="name" href="/about.me.html">茯苓</a>
+                    
+                    <span class="date" data-time="1506564000"><span class="from"></span></span>
+                    
+                    <span class="tags"><a class="tag" href="/tag/%e5%8c%ba%e5%9d%97%e9%93%be/index.html">区块链</a><a class="tag" href="/tag/%e7%a7%91%e6%99%ae/index.html">科普</a></span>
+                </section>
+                <article class="content"><p>在写这篇文章前，茯苓已经写了一篇介绍比特币的文章，如果对区块链和比特币一头雾水的话，建议从上一篇文章开始阅读
+(｡･ω･｡)
+咳咳，这篇文章有那么一丢丢技术含量，不过我会尽量使用通俗易懂的文字来写这篇文章的。</p>
+
+<p>比特币诞生之后又过了蛮长的一段时间后，人们才把对比特币的惊艳转化为研究它底层的动力。我们将比特币的底层技术称之为区块链（blockchain）。比特币无疑是区块链的鼻祖，同时也是区块链最成功的应用（目前来说）。</p>
+
+<p>区块链是个好东西，使用它记录的数据具有不可变性，这样我们便可以使电子存证变的简单起来。比如说，可以把合同，版权丢到区块链上。以太坊的问世，让我们看到了区块链的另外一个应用方式即智能合约（虽然以太坊很了不起，但是现在不用知道以太坊是什么，当它是个名词就行了）。通过智能合约，我们可以做的事情就更多了，开发基于区块链的应用也变的越来越方便。</p>
+
+<p>好啦，表层次的东西说完了，现在我们往深处走些。</p>
+
+<p>区块链不是一项单独的技术，实际上区块链是由许多技术共同构成的，简单的拆分一下，区块链包含这么几项技术：p2p，密码学，以及分布式共识算法，接下来我们便说说这三项技术(｡･ω･｡)</p>
+
+<p>首先，我们来说下p2p～
+咳咳，茯苓觉得，如果你是真.老司机，那么你一定知道p2p是啥。啊呀，是种子啦，才不是什么p2p理财呢（默默捂脸）。p2p的全名是peer to peer翻译成中文的话就是点对点，我们通过p2p可以构建一个去中心的网络，然后可以通过这个去中心网络共享一些东西，比如电影、歌曲、图片什么的。我们所熟知的电驴，迅雷，bittorrent都是和p2p技术有很大关联的。╮(╯▽╰)╭这么bug的东西版权方、网络运营商对其自然不怎么待见，所以没事就封杀一下～就这样过去了一段时间后，这些p2p应用采用了一种基于DHT的kademlia算法（简称kad），使得整个网络更加去中心化。比特币使用的p2p算法和kad还是蛮像的，只不过改变了许多内容。随着越来越多的人开始研究区块链，现在的区块链技术使用的p2p网络也更为强健～
+￼
+<img src="data:image/gif;base64,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" data-src="/images/2017-9-27-what-is-blockchain-mini-p2p.jpg" alt="看起来就很随意的p2p示意图" /></p>
+
+<p>接下来我们来看看关于区块链的密码学(￣▽￣)</p>
+
+<p>首先我们来了解一下电子签名～</p>
+
+<p>在区块链上你的每一笔交易都会打上电子签名，以证明这笔交易是你的。签名我们都知道，就是用笔在纸或者其它载体上签上你的名字，但是，数字签名是个啥？难道是用笔在电脑上签名么？当然不是～电子签名呢其实是密码学的一个应用即签名算法，使用签名算法我们需要两个东西，一个是私钥，一个是公钥。通过私钥可以为一段信息签个名变成一串长长的字符，而通过公钥可以验证被签了名的信息是否属于你。
+这个公钥可以通过私钥获得，
+在区块链中，许多需要验证的地方都使用了电子签名，所以说私钥一定要保管好，不然通过私钥签过的东西可就不属于你了。</p>
+
+<p>区块链上的东西，很多都是需要加密的，那么用什么加密呢？当然还是算法啦，有用sha2的，有用sha3的，还有使用blake的，通常来说，我们认为sha3更为安全。shax算法是怎么应用的呢？在这里举个栗子：比如说，我想加密“茯苓是个可爱的男孩子”这段话，然后把shax算法想成一个机器，我们将这段话丢进去机器便会吐出一个看不懂的字符“gcfidvvjdjjdkwjavsfhcmdkwbcgsjjs”（这是我乱打的）。然后加密就完成了。
+￼
+接下来是地址，地址是基于sha算法的一个应用。用过虚拟货币的小伙伴应该知道这个词。地址代表着你在区块链上的账户，收发数字资产以及其它行为都离不开这个地址。这个地址怎么来的呢？很简单，生成你的公钥然后丢给sha算法，再然后你就可以获得地址了。</p>
+
+<p><img src="data:image/gif;base64,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" data-src="/images/2017-9-27-what-is-blockchain-i-o.jpg" alt="输入，输出" /></p>
+
+<p>好啦，说完p2p，密码学我们可以来聊聊分布式共识算法喽
+(￣▽￣)</p>
+
+<p>为什么需要共识算法呢？因为区块链需要很多台计算机才能保证数据具有不可变性。让一堆计算机可以在一起愉快工作的机制就是共识算法。</p>
+
+<p>共识算法不是个新鲜的东西，在区块链出现以前就有了paxos这一精妙的算法了（虽然很多人吐槽晦涩难懂）。之后又出现了更为简单易懂的raft算法。还有一个有名的算法叫做pbft算法，央行打造的区块链就采用了pbft算法的改进版。
+这三个算法和我们人类的社会制度蛮像的比如说领导者，投票者，候选者什么的，详细解释起来比较麻烦，在这里茯苓也就不说了，感兴趣的小伙伴可以去看看相关论文(｡･ω･｡)</p>
+
+<p>随着区块链的出现，一种颇具创造性的名为pow的算法也随之出现</p>
+
+<p>pow即proof of work也就是工作量证明，很巧妙的通过工作量来维持不少区块链的运行，emmm，顺便一说，导致显卡涨了那么多的很大一部分原因就是这个算法╮(╯▽╰)╭</p>
+
+<p>pow算法对电的需求量很大，换句话说就是，这玩应儿费电&hellip;&hellip;</p>
+
+<p>然后这时候就有大佬出现了，提出了一种叫做pos(权益证明，proof of stake）的共识，运行方法就像在银行存钱然后给你利息一样，这样对电力的需求就不是那么大了，即便是这样，依旧是槽点满满，可优化的空间很大。</p>
+
+<p>还有一种算法叫做dpos，这个算法和人类社会也是蛮像的，找来一堆见证人，让他们为区块链工作，如果某一个见证人出了问题，其余节点（除了见证节点）就会发起投票找到新的见证人。</p>
+
+<p>整个区块链和分布式的账本很像，pow，pos，dpos都是为了解决谁来记账这个问题而存在的。如果在未来可以诞生更高效的共识算法那就太好了～</p>
+
+<p>说完区块链使用的三种技术，我们就可以进入到下一环节了，这这里茯苓将告诉大家区块链是怎么运行的。</p>
+
+<p>区块链为什么区块链呢？因为它是由区块和链组成的。把一个个区块连接起来就是区块链～</p>
+
+<p>首先，我们发起一个交易，然后我们会对其进行签名。注意啦，这里的交易不一定是指买，卖，还可以指投票，储存一段信息什么的。然后发起交易的节点会将交易信息发布到整个区块链网络。</p>
+
+<p>如果有很多人在用这个区块链的话，那么很短的一段时间内会有很多交易等待记录。</p>
+
+<p>现在网络上已经储存了很多未被记录的交易，在共识算法的作用下会有一个节点把一堆交易打包起来塞到一个块里。打包之后，这个节点会像整个节点宣布打包完成，然后这个区块会被其它节点同步。</p>
+
+<p>接下来重复这几步，区块打包这个过程会弄出一个叫头哈希的东西，区块之间正是通过头哈希来连接的。</p>
+
+<p>由于所有的节点记录着同样的信息，所以交易被打包到区块后就不可变了。好吧，这么说很牵强，实际上是有六个节点同步了含有你的那笔交易的区块我们就认为这笔交易是不可变的了。╮(╯▽╰)╭</p>
+
+<p>好啦，以上便是这篇文章要说的了，如果再深入的话就显得枯燥无味了～</p>
+
+<p>前边也说过了，区块链上的数据具有不可变性，所以做电子存证很方便，这篇文章就是使用了电子存证的～除此之外，区块链还可以被银行，证券所使用。甚至可以与物联网成为好基友。</p>
+
+<p>区块链的价值很大，但是茯苓觉得应该还有很多应用方式没有被挖掘出来。茯苓自己也在写区块链，希望在未来茯苓的萌链能有所作为。</p>
+
+<p>在这里提一下，这个世界上不乏骗子，很多人打着高新技术的旗号行诈骗之事，如果有想要在区块链行业投资的小伙伴请擦亮眼睛，认清价值所在，不要被骗。</p>
+
+<p>本文经「原本」原创认证，作者茯苓猫，访问yuanben.io查询【1N11OLN6】获取授权信息。</p>
+</article>
+                <section class="author">
+                    <div class="avatar" style="background-image: url(/images/avatar.png);"></div>
+                    <a class="name" href="/about.me.html">茯苓</a>
+                    <div class="intro">萌链作者</div>
+                </section>
+                <section class="recommend">
+                    
+                    
+                    <section class="nav next">
+                        <div class="head">下篇文章</div>
+                        <a class="link" href="/what-is-bitcoin.html">比特币是个啥</a>
+                    </section>
+                    
+                </section>
+                
+    <section id="disqus_thread"></section>
+    <script type="text/javascript">
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//username.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+            </article>
+        </article>
+        <footer class="footer">
+    <span class="copyright">
+        萌链官方博客 ©
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>
+    </span>
+    <span class="publish">Powered by <a href="http://www.chole.io/" target="_blank">Ink</a></span>
+</footer>
+
+        <script src="/bundle/index.js"></script>
+    </body>
+</html>
